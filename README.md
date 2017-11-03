@@ -61,6 +61,6 @@ A predictor object then uses the 'RF.pkl' file (trained model) to predict any ar
 
 The collection 'theData' is then exported into a JSON file called 'hw3.json' using the following command in terminal (ensure command is executed in current working directory, ie, 'HW3' directory):
 
-mongoexport -d twitterDBs -c theData -o sample.json
+mongoexport -d twitterDBs -c theData -o hw3.json
 
 A sample json output has been provided in the 'HW3' directory as required, post execution of 'streamLined.py'
