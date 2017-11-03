@@ -1,0 +1,11 @@
+Astronomy — Naval Oceanography Portal
+a weekly set of pictures and descriptions of the sky, stars, and planets. Sun and Moon rise and set times, Moon phases, eclipses, seasons, positions of solar system objects, and other data Background information on common astronomical phenomena, calendars and time, and related topics Astronomical and navigational almanacs, special publications, research reports Computer almanac for PCs and Macs, and more Optical/infrared image and catalog products provided by the USNO.
+Astrometric catalogs include NOMAD, UCAC, USNO-B1, etc.  Imaging
+products include digital scans of a number of the
+major Schmidt telescope surveys of the skies, along with the catalogs
+of astronomical objects created from those images.   Very Long Baseline Interferometry (VLBI) is a technique used by radio
+astronomers and geodesists to determine the celestial and terrestrial reference frames
+and to predict the variable orientation of the Earth in
+three-dimensional space. Your one-stop-source for astrometry related information.
+Naval Meteorology and Oceanography Command,
+1100 Balch Blvd,   Stennis Space Center, MS 39529

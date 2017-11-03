@@ -1,0 +1,2 @@
+Medical Subject Headings - Home Page
+NLM Customer Support Our main purpose is to provide a hierarchically-organized terminology for indexing and cataloging of biomedical information such as MEDLINE/PUBmed and other NLM databases. We also distribute pharmaceutical information through our RxNorm database, and manage the curation of the UMLS and SnoMed database.
