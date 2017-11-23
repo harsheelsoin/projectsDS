@@ -64,3 +64,10 @@ The collection 'theData' is then exported into a JSON file called 'hw3.json' usi
 mongoexport -d twitterDBs -c theData -o hw3.json
 
 A sample json output has been provided in the 'HW3' directory as required, post execution of 'streamLined.py'
+
+# Homework 4
+The Homework 4 submission consists of three scripts:
+Note: Please download entire 'HW4' folder, as all files are required for execution. The user needs to change the directory path at the start of the 'HomeWork4.py' code from '/Users/harsheelsoin/Downloads/Projects in Data Science/HomeWork4' to <locally_downloaded_HW4_directory_path>. Also, the execution of 'HomeWork4.py' takes around 25 min (until the point where user inputs for company names are accepted), because of the scale of the data and the large number of classes
+1) 'HomeWork4.py': This script takes in the given database of companies and their industry categories, performs random sampling of size 100 from each industry category (without replacement if population for industry>=100 and with replacement if population for industry<100), trains a Random Forest model on this data, and then accepts user inputs (company names) continuously so as to predict the company industry. The user can break this continous loop by giving an empty input
+2) 'classifierNew.py': defines the class 'theClassifier' for training a model using a particular classification technique. The difference here is that no pickle files for the vectorizer, PCA or model are being saved. All these objects are stored in run time during execution of 'HomeWork4.py', and not dumped into pickle filed on the hard disk
+3) 'predictorNew.py': defines the class 'thePredictor' for predicting the class of any input text (company name) into one of the 99 industry categories
