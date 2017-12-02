@@ -1,0 +1,58 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf830
+{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
+{\colortbl;\red255\green255\blue255;\red34\green45\blue53;\red255\green255\blue255;}
+{\*\expandedcolortbl;;\cssrgb\c17647\c23137\c27059;\cssrgb\c100000\c100000\c100000;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}}
+\margl1440\margr1440\vieww21460\viewh12540\viewkind0
+\deftab720
+\pard\pardeftab720\sl360\sa240\partightenfactor0
+
+\f0\fs32 \cf2 \cb3 \expnd0\expndtw0\kerning0
+The focus of the exercise is to build a model to predict the age of Twitter users based only on the information obtained from his/her profile and Twitter network.\'a0 Use the following age bands (18-24, 25-34, 35-44, 45-54, 55-54, 65+). You are also welcome (and encouraged) to explore the\'a0{\field{\*\fldinst{HYPERLINK "https://courseworks2.columbia.edu/courses/48086/files/1912115/download?verifier=ErfHG7P2VLwt74hCE6TA1TnHsESjE9A5CXIvW7N3&wrap=1"}}{\fldrslt \ul data set}}\'a0and find 2-3 additional insights that may be meaningful or interesting.\
+\pard\pardeftab720\sl380\sa240\partightenfactor0
+
+\b \cf2 Training and Test Data:
+\b0 \
+\pard\pardeftab720\sl380\sa240\partightenfactor0
+
+\i\b \cf2 user_ages_train.csv
+\i0\b0 : The training data, indicating the known age for each user ID in the set.\'a0 Please split this up 80/20 with the 20 as a holdout for test.\
+\pard\pardeftab720\sl380\sa240\partightenfactor0
+
+\b \cf2 User Data:
+\b0 \
+\pard\pardeftab720\sl380\sa240\partightenfactor0
+
+\i\b \cf2 user_age_profiles.json
+\i0\b0 : Twitter user profiles corresponding to the users in the training and test sets. The data format is documented here.\
+
+\i\b user_age_tweets.json
+\i0\b0 : Recent tweets from the users in the training and test sets. The data format is documented here.\
+\pard\pardeftab720\sl360\sa240\partightenfactor0
+\cf2 \'a0\
+\pard\pardeftab720\sl380\sa240\partightenfactor0
+
+\b \cf2 Friend Data:
+\b0 \
+\pard\pardeftab720\sl380\sa240\partightenfactor0
+
+\i\b \cf2 friends.csv
+\i0\b0 : A data set indicating users that the users in the training/test set are following.\
+
+\i\b friend_profiles.json
+\i0\b0 : Twitter user profiles corresponding to the users in friends.csv. The data format is documented here.\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sl360\partightenfactor0
+\ls1\ilvl0\cf2 \kerning1\expnd0\expndtw0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+Students must perform their work in Python.\cb1 \
+\ls1\ilvl0\cb3 \kerning1\expnd0\expndtw0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+Students must provide the age predictions for the cases in the user_ages_test.csv file. Please provide a csv file with each line containing a single \'93ID, age_prediction\'94 pair. Please name this file age_predictions.csv.\cb1 \
+\ls1\ilvl0\cb3 \kerning1\expnd0\expndtw0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+Please submit the link to your github repo\cb1 \
+\pard\pardeftab720\sl360\sa240\partightenfactor0
+\cf2 \cb3 1.\'a0 Preprocessing engine for at least 2 json files (not including the id to age)\'a0 50 points\
+2.\'a0 Data Cleansing - 20 points\
+3.\'a0 Transform data and Train a model - 20 points\
+4.\'a0 \'a0Classify arbitrary text for specific industry - 10 points\
+Code can run continuously without need to save off pickle files \
+}
